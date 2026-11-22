@@ -127,14 +127,6 @@
   .stat b{display:block;font-size:34px;letter-spacing:-.03em;color:var(--accent-text)}
   .stat span{color:var(--text-soft);font-size:15px}
 
-  /* Banner */
-  .banner-sec{padding:0 0 88px}
-  .banner{
-    display:block;width:100%;height:auto;border-radius:28px;border:1px solid var(--line);
-    box-shadow:var(--shadow);transition:transform .4s ease,box-shadow .4s ease;
-  }
-  .banner:hover{transform:scale(1.012)}
-
   /* About */
   #about{background:var(--bg-alt);transition:background .35s}
   .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
@@ -197,7 +189,6 @@
   /* Responsive */
   @media(max-width:900px){
     section{padding:64px 0}
-    .banner-sec{padding-bottom:64px}
     .about-grid{grid-template-columns:1fr;gap:36px}
     .photo{max-width:380px;margin-inline:auto;width:100%}
     .foot-grid{grid-template-columns:1fr 1fr}
@@ -206,7 +197,6 @@
   @media(max-width:600px){
     .stats{grid-template-columns:1fr}
     .hero{padding:56px 0 48px}
-    .banner{border-radius:18px}
     .cta{padding:40px 22px}
     .foot-grid{grid-template-columns:1fr}
     .hero-actions .btn{width:100%}
@@ -255,13 +245,6 @@
         <div class="stat"><b>3 направления</b><span>карты, ИП и РКО</span></div>
         <div class="stat"><b>100% онлайн</b><span>сопровождение в Telegram</span></div>
       </div>
-    </div>
-  </section>
-
-  <!-- BANNER -->
-  <section class="banner-sec">
-    <div class="container">
-      <img class="banner" src="banner.jpg" width="1672" height="941" alt="dobro.web — Кирилл, ваш менеджер 24/7: РКО, ИП, дебетовые карты, консультация" loading="lazy">
     </div>
   </section>
 
